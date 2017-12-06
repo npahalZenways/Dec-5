@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		p{
+			background-color: yellow;
+			color: red;
+		}
+		div{
+			border: 1px solid black;
+		}
+		#third{
+			background-color: green;
+			color: white;
+		}
+		div.styled.first{
+			padding: 10px;
+		}
+		.second p{
+			color: blue;
+		}
+		div+p{
+			font-size: 25px;
+		}
+		.second p:nth-child(odd){
+			background-color: black;
+		}
+		section:hover{
+			background-color: cyan;
+		}
+		[href="#1"]{
+			color: pink;
+		}
+		pre{
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+			/*font-weight: 600;*/
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+	<p class="styled">Hello this is styles para</p>
+	<p>Hello this is styles para</p>
+	<p>Hello this is styles para this is my span</span></p>
+	<p>Hello this is styles para</p>
+	<div class="styled first">
+		<!-- <p>Para inside div</p>
+		<p>Para inside div</p>
+		<p>Third Para inside div</p> -->
+	</div>
+	<p>Placed immediately after div</p>
+	<section class="second">
+		<div style="margin: 0 0 10px 0">
+			<p>First Para inside div</p>
+			<p>Para inside div</p>
+			<p>Third Para inside div</p>
+			<p>Para inside div</p>
+			<p>Para inside div</p>
+		</div>
+		<div>
+			<p>First Para inside div</p>
+			<pre>Para inside div Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation
+			 ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			
+			\proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</pre>
+			<p>Third Para inside div</p>
+			<p>Para inside div</p>
+			<p>Para inside div</p>
+		</div>
+	</section>
+	<div>
+		<section>
+			<p>
+				hello
+			</p>
+		</section>
+	</div>
+	<p>Nine</p>
+	<p>Ten</p>
+	<a href="#">This is a link</a>
+	<a href="#1">This is a link</a>
+	<a href="#2">This is a link</a>
+	<img src="">
+</body>
+</html>
